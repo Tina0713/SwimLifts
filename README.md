@@ -17,6 +17,6 @@ Simple Tab Bar navigation for switching between "Training Plans," "History," and
 -------------------------------
 👤 Author
 Name: Tina Chou
-Email: ychou@sfsu.edu
+/ Email: ychou@sfsu.edu
 
 
