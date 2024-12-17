@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC15E592D0C151C004BDF4E /* SwimLiftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E582D0C151C004BDF4E /* SwimLiftsApp.swift */; };
+		AEC15E5D2D0C151D004BDF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC15E5C2D0C151D004BDF4E /* Assets.xcassets */; };
+		AEC15E602D0C151D004BDF4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC15E5F2D0C151D004BDF4E /* Preview Assets.xcassets */; };
+		AEC15E692D0C188E004BDF4E /* TrainingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E682D0C188E004BDF4E /* TrainingDetailView.swift */; };
+		AEC15E6B2D0C4054004BDF4E /* EditTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E6A2D0C4054004BDF4E /* EditTrainingView.swift */; };
+		AEC15E752D0C5246004BDF4E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E742D0C5246004BDF4E /* SettingView.swift */; };
+		AEC15E772D0C5322004BDF4E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E762D0C5322004BDF4E /* MainView.swift */; };
+		AEC15E792D0C5350004BDF4E /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E782D0C5350004BDF4E /* CustomTabBar.swift */; };
+		AEC15E7F2D0C553D004BDF4E /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E7E2D0C553D004BDF4E /* HistoryView.swift */; };
+		AEC15E812D0C55AD004BDF4E /* TabContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E802D0C55AD004BDF4E /* TabContent.swift */; };
+		AEC15E992D0DC726004BDF4E /* NewTrainingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15E982D0DC726004BDF4E /* NewTrainingPlanView.swift */; };
+		AEC15EA12D0DD719004BDF4E /* TrainingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15EA02D0DD719004BDF4E /* TrainingPlanView.swift */; };
+		AEC15EA72D0DE8E1004BDF4E /* SharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC15EA62D0DE8E1004BDF4E /* SharedViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEC15E552D0C151C004BDF4E /* SwimLifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimLifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC15E582D0C151C004BDF4E /* SwimLiftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimLiftsApp.swift; sourceTree = "<group>"; };
+		AEC15E5C2D0C151D004BDF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC15E5F2D0C151D004BDF4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEC15E682D0C188E004BDF4E /* TrainingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingDetailView.swift; sourceTree = "<group>"; };
+		AEC15E6A2D0C4054004BDF4E /* EditTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTrainingView.swift; sourceTree = "<group>"; };
+		AEC15E742D0C5246004BDF4E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		AEC15E762D0C5322004BDF4E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AEC15E782D0C5350004BDF4E /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		AEC15E7E2D0C553D004BDF4E /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AEC15E802D0C55AD004BDF4E /* TabContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContent.swift; sourceTree = "<group>"; };
+		AEC15E982D0DC726004BDF4E /* NewTrainingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingPlanView.swift; sourceTree = "<group>"; };
+		AEC15EA02D0DD719004BDF4E /* TrainingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanView.swift; sourceTree = "<group>"; };
+		AEC15EA62D0DE8E1004BDF4E /* SharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC15E522D0C151C004BDF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEC15E4C2D0C151C004BDF4E = {
+			isa = PBXGroup;
+			children = (
+				AEC15E572D0C151C004BDF4E /* SwimLifts */,
+				AEC15E562D0C151C004BDF4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC15E562D0C151C004BDF4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC15E552D0C151C004BDF4E /* SwimLifts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC15E572D0C151C004BDF4E /* SwimLifts */ = {
+			isa = PBXGroup;
+			children = (
+				AEC15E582D0C151C004BDF4E /* SwimLiftsApp.swift */,
+				AEC15EA02D0DD719004BDF4E /* TrainingPlanView.swift */,
+				AEC15EA62D0DE8E1004BDF4E /* SharedViewModel.swift */,
+				AEC15E982D0DC726004BDF4E /* NewTrainingPlanView.swift */,
+				AEC15E682D0C188E004BDF4E /* TrainingDetailView.swift */,
+				AEC15E6A2D0C4054004BDF4E /* EditTrainingView.swift */,
+				AEC15E7E2D0C553D004BDF4E /* HistoryView.swift */,
+				AEC15E742D0C5246004BDF4E /* SettingView.swift */,
+				AEC15E762D0C5322004BDF4E /* MainView.swift */,
+				AEC15E802D0C55AD004BDF4E /* TabContent.swift */,
+				AEC15E782D0C5350004BDF4E /* CustomTabBar.swift */,
+				AEC15E5C2D0C151D004BDF4E /* Assets.xcassets */,
+				AEC15E5E2D0C151D004BDF4E /* Preview Content */,
+			);
+			path = SwimLifts;
+			sourceTree = "<group>";
+		};
+		AEC15E5E2D0C151D004BDF4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEC15E5F2D0C151D004BDF4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC15E542D0C151C004BDF4E /* SwimLifts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC15E632D0C151D004BDF4E /* Build configuration list for PBXNativeTarget "SwimLifts" */;
+			buildPhases = (
+				AEC15E512D0C151C004BDF4E /* Sources */,
+				AEC15E522D0C151C004BDF4E /* Frameworks */,
+				AEC15E532D0C151C004BDF4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimLifts;
+			productName = SwimLifts;
+			productReference = AEC15E552D0C151C004BDF4E /* SwimLifts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC15E4D2D0C151C004BDF4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AEC15E542D0C151C004BDF4E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AEC15E502D0C151C004BDF4E /* Build configuration list for PBXProject "SwimLifts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC15E4C2D0C151C004BDF4E;
+			productRefGroup = AEC15E562D0C151C004BDF4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC15E542D0C151C004BDF4E /* SwimLifts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC15E532D0C151C004BDF4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC15E602D0C151D004BDF4E /* Preview Assets.xcassets in Resources */,
+				AEC15E5D2D0C151D004BDF4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC15E512D0C151C004BDF4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC15E772D0C5322004BDF4E /* MainView.swift in Sources */,
+				AEC15EA12D0DD719004BDF4E /* TrainingPlanView.swift in Sources */,
+				AEC15E692D0C188E004BDF4E /* TrainingDetailView.swift in Sources */,
+				AEC15E792D0C5350004BDF4E /* CustomTabBar.swift in Sources */,
+				AEC15E992D0DC726004BDF4E /* NewTrainingPlanView.swift in Sources */,
+				AEC15E812D0C55AD004BDF4E /* TabContent.swift in Sources */,
+				AEC15E752D0C5246004BDF4E /* SettingView.swift in Sources */,
+				AEC15E6B2D0C4054004BDF4E /* EditTrainingView.swift in Sources */,
+				AEC15E7F2D0C553D004BDF4E /* HistoryView.swift in Sources */,
+				AEC15E592D0C151C004BDF4E /* SwimLiftsApp.swift in Sources */,
+				AEC15EA72D0DE8E1004BDF4E /* SharedViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEC15E612D0C151D004BDF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEC15E622D0C151D004BDF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC15E642D0C151D004BDF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwimLifts/Preview Content\"";
+				DEVELOPMENT_TEAM = DDT7DBS474;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ychou-sfsu.edu.SwimLifts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC15E652D0C151D004BDF4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwimLifts/Preview Content\"";
+				DEVELOPMENT_TEAM = DDT7DBS474;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ychou-sfsu.edu.SwimLifts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC15E502D0C151C004BDF4E /* Build configuration list for PBXProject "SwimLifts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC15E612D0C151D004BDF4E /* Debug */,
+				AEC15E622D0C151D004BDF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC15E632D0C151D004BDF4E /* Build configuration list for PBXNativeTarget "SwimLifts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC15E642D0C151D004BDF4E /* Debug */,
+				AEC15E652D0C151D004BDF4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC15E4D2D0C151C004BDF4E /* Project object */;
+}
